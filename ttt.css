@@ -23,7 +23,7 @@ body {
 }
 
 .square {
-  background-color: #fcfcfc;
+  background-color: white;
   color: black;
   height: 100px;
   width: 100px;
@@ -33,4 +33,12 @@ body {
   font-size: 40px;
   margin: 1px;
   cursor: pointer;
+}
+
+.square:hover {
+  background-color: whitesmoke;
+}
+
+.square:active {
+  background-color: rgb(161, 160, 221);
 }

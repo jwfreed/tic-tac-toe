@@ -5,10 +5,10 @@ document.querySelector(".squares").addEventListener("click", e => {
 
 // change innerText to 'X', 'O', or '-'
 const buttonClick = val => {
-  if (val.innerText === "-") {
-    val.innerText = "X";
-  } else if (val.innerText === "X") {
+  if (currentTurn.innerText === "Player O") {
     val.innerText = "O";
+  } else if (currentTurn.innerText === "Player X") {
+    val.innerText = "X";
   } else {
     val.innerText = "-";
   }

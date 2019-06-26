@@ -53,3 +53,15 @@ body {
 .square:active {
   background-color: rgb(161, 160, 221);
 }
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-btn {
+  border-radius: 0;
+  border: none;
+  margin: 1px;
+  font-size: 20px;
+}

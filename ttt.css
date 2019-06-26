@@ -9,6 +9,17 @@ body {
   justify-content: center;
 }
 
+.turn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.current-turn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
 .board {
   display: flex;
   flex-flow: column wrap;
@@ -36,7 +47,7 @@ body {
 }
 
 .square:hover {
-  background-color: whitesmoke;
+  background-color: lightblue;
 }
 
 .square:active {

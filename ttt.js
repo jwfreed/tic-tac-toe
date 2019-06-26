@@ -13,3 +13,24 @@ const buttonClick = val => {
     val.innerText = "-";
   }
 };
+
+// game starts with Player X
+// when player clicks an empty square it changes to their token
+// need to track current player
+
+// current turn
+const currentTurn = document.querySelector(".current-turn");
+
+const turnBtn = document
+  .querySelector(".turn-btn")
+  .addEventListener("click", e => {
+    changePlayer(currentTurn);
+  });
+
+const changePlayer = val => {
+  if (val.innerText === "Player X") {
+    currentTurn.innerText = "Player O";
+  } else {
+    currentTurn.innerText = "Player X";
+  }
+};

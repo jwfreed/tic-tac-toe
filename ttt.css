@@ -7,6 +7,7 @@ body {
   margin-top: 10%;
   display: flex;
   justify-content: center;
+  background: cyan;
 }
 
 .turn {
@@ -14,6 +15,7 @@ body {
   justify-content: space-evenly;
 }
 
+.whos-turn,
 .current-turn {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -26,6 +28,14 @@ body {
   width: 322px;
   background-color: black;
   color: antiquewhite;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+    0 15px 12px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .squares {

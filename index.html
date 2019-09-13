@@ -8,34 +8,44 @@
     <link rel="stylesheet" href="ttt.css" />
   </head>
   <body>
-    <!-- div for entire board -->
-    <div class="board">
-      <section class="turn">
-        <div class="whos-turn">Current Turn:</div>
-        <div class="current-turn">
-          Player X
+    <div class="wrapper">
+      <h2 class="title">Tic-Tac-Toe</h2>
+      <!-- win modal -->
+      <div class="modal">
+        <div class="modal-msg-container">
+          <p class="modal-msg"></p>
         </div>
-      </section>
-      <section class="squares">
-        <div class="row">
-          <button class="square s-1">-</button>
-          <button class="square s-2">-</button>
-          <button class="square s-3">-</button>
-        </div>
-        <div class="row">
-          <button class="square s-4">-</button>
-          <button class="square s-5">-</button>
-          <button class="square s-6">-</button>
-        </div>
-        <div class="row">
-          <button class="square s-7">-</button>
-          <button class="square s-8">-</button>
-          <button class="square s-9">-</button>
-        </div>
-      </section>
-      <section class="reset">
-        <button class="reset-btn">Reset Game</button>
-      </section>
+        <button class="close-modal">Play Again</button>
+      </div>
+      <!-- div for entire board -->
+      <div class="board">
+        <section class="turn">
+          <div class="whos-turn">Current Turn:</div>
+          <div class="current-turn">
+            Player X
+          </div>
+        </section>
+        <section class="squares">
+          <div class="row">
+            <button class="square s-1">-</button>
+            <button class="square s-2">-</button>
+            <button class="square s-3">-</button>
+          </div>
+          <div class="row">
+            <button class="square s-4">-</button>
+            <button class="square s-5">-</button>
+            <button class="square s-6">-</button>
+          </div>
+          <div class="row">
+            <button class="square s-7">-</button>
+            <button class="square s-8">-</button>
+            <button class="square s-9">-</button>
+          </div>
+        </section>
+        <section class="reset">
+          <button class="reset-btn">Reset Game</button>
+        </section>
+      </div>
     </div>
     <script src="./ttt.js"></script>
   </body>

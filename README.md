@@ -1,2 +1,4 @@
 # tic-tac-toe
-# X versus O
+Classic game of wits between Xs and Os
+
+

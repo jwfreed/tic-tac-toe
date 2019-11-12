@@ -86,6 +86,15 @@ body {
   font-size: 20px;
 }
 
+.reset-btn-draw {
+  border-radius: 5px;
+  border: none;
+  margin: 1px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+
 .modal {
   display: none;
   flex-flow: column;
